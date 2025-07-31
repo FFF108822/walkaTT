@@ -5,13 +5,13 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
     output: "export",
-    basePath: isProd ? "/walka/out" : "",
-    assetPrefix: isProd ? "/walka/out": "",
+    basePath: isProd ? "/walka" : "",
+    assetPrefix: isProd ? "/walka" : "",
     eslint: {
         ignoreDuringBuilds: true,
     },
     env: {
-        NEXT_PUBLIC_BASE_PATH: isProd ? '/walka/out' : '',
+        NEXT_PUBLIC_BASE_PATH: isProd ? '/walka' : '',
     }
 };
 
