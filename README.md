@@ -124,7 +124,7 @@
 
 ## 🤝 Acknowledgments
 
-- Developed by [@longsizhuo](https://github.com/longsizhuo)
+- Developed by [@Runze Tian](https://github.com/FFF108822)
 - Powered by [Google GenAI](https://ai.google.dev/)
 - Inspired by cultural storytelling and travel empowerment
 
